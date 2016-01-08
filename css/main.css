@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+}
+
+/* Header stuff */
+
+#Header {
+    height: 50px;
+    background-color: darkgray;
+    
+}
+
+#Menu {
+    margin: auto;
+    width: 60%;
+    height: inherit;
+}
+
+.menu-item {
+    width: 150px;
+    height: inherit;
+    position: relative;
+    float: left;
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 30px;
+    line-height: 50px;
+    color: white;
+    text-align: center;
+    border-right: 1px solid black;
+    
+    
+    
+}
+
+.menu-item:first-child {
+    border-left: 1px solid black;
+}
+
+
+/* Content */
+
+#Content {
+    width: 60%;
+    margin: auto;
+}
+
+    /* Chat window */
+
+#Chat {
+    position: relative;
+    width: 100%;
+    background-color: lightgrey;
+    height: 500px;
+}
+
+#messages {
+    width: 92%;
+    margin: auto;
+    background-color: white;
+    height: 450px;
+	overflow: scroll;
+}
+
+.message {
+    margin-top: 5px;
+    margin-right: 1px;
+    float: right;
+    width: 90%;
+    border: 1px grey solid;
+    border-radius: 10px;
+    min-height: 30px;
+    line-height: 30px;
+}
+
+.left-message {
+    margin-left: 1px;
+    margin-right: 0px;
+    float: left;
+}
+
+.message .user {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.message .text-message {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+#send-message {
+    position: absolute;
+    width: 80%;
+    margin-left: 10px;
+    height: 25px;
+    display: block;
+    bottom: 0;
+}
+
+#send {
+    position:  absolute;
+    width: 15%;
+    bottom: 0;
+    margin-left: 83%;
+    display: block;
+    height: 30px;
+    
+}
